@@ -89,7 +89,6 @@ int main(int argc, char ** argv) {
 		}
 	}
 
-
 	insp = 0;
 	int charsin = 0; // for debuggin
 	while (insp < fsize) {
@@ -101,7 +100,6 @@ int main(int argc, char ** argv) {
 		// }
 		// putchar('|');
 		// getchar();
-
 		if (fstring[insp] == '+') {
 			tape[cell]++;
 		}
