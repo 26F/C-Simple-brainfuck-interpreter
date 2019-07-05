@@ -19,7 +19,7 @@ int main(int argc, char ** argv) {
 	fseek(f, 0, SEEK_SET); // reset to beginning of file
 	char * fstring = malloc(fsize + 1); // allocate
 	if (fstring == NULL) {
-		printf("Alocation failed");
+		printf("Allocation failed");
 		return 0;
 	}
 	fread(fstring, fsize, 1, f);     // get file data as string
