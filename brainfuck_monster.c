@@ -42,6 +42,7 @@ int main(int argc, char ** argv) {
 	}
 	if (startbrack != 0) {
 		printf("Brackets don't match");
+		free(fstring);
 		return 0;
 	}
 
